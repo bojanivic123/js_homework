@@ -3,8 +3,7 @@
 let array1 = [4, -22, 0, 56, -9, 122, -400, 1500, 3];
 
 getNewArrayAfterFive = (...elements) => {
-    let newArray = [];
-    newArray = elements.slice(5);
+    let newArray = elements.slice(5);
     return newArray;
 }
 
